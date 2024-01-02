@@ -94,8 +94,8 @@ Serpiente::Serpiente(const int x, const int y, eDireccion direcInicial) {
 
 
 /*
-* @brief Función encargada de detectar el input del jugador
-* y mover a este
+* @brief Función encargada de mover a la
+* serpiente
 */
 void Serpiente::mover(bool& gameOver) {
 	colaX[0] = this->x;
